@@ -1,0 +1,135 @@
+[
+    {
+        "model": "LSTM",
+        "runs": [
+            {
+                "rmse": 18.084107,
+                "time_sec": 99.23
+            },
+            {
+                "rmse": 19.722909,
+                "time_sec": 99.19
+            },
+            {
+                "rmse": 5.79073,
+                "time_sec": 99.53
+            }
+        ],
+        "avg_rmse": 14.532582,
+        "avg_time_sec": 99.32
+    },
+    {
+        "model": "GRU",
+        "runs": [
+            {
+                "rmse": 13.126884,
+                "time_sec": 110.15
+            },
+            {
+                "rmse": 12.909524,
+                "time_sec": 110.25
+            },
+            {
+                "rmse": 9.884149,
+                "time_sec": 109.94
+            }
+        ],
+        "avg_rmse": 11.973519,
+        "avg_time_sec": 110.11
+    },
+    {
+        "model": "GRU_CLOSE_TANH_RELU_LEAKYRELU",
+        "runs": [
+            {
+                "rmse": 8.284166,
+                "time_sec": 110.3
+            },
+            {
+                "rmse": 9.277187,
+                "time_sec": 110.36
+            },
+            {
+                "rmse": 11.928718,
+                "time_sec": 110.48
+            }
+        ],
+        "avg_rmse": 9.830024,
+        "avg_time_sec": 110.38
+    },
+    {
+        "model": "GRU_CLOSE_VOLUME_TANH_LEAKYRELU_ELU",
+        "runs": [
+            {
+                "rmse": 27.717262,
+                "time_sec": 110.65
+            },
+            {
+                "rmse": 18.431342,
+                "time_sec": 109.85
+            },
+            {
+                "rmse": 30.677396,
+                "time_sec": 109.21
+            }
+        ],
+        "avg_rmse": 25.608667,
+        "avg_time_sec": 109.9
+    },
+    {
+        "model": "GRU_CLOSE_RSI14_MACD_TANH_SWISH",
+        "runs": [
+            {
+                "rmse": 19.625624,
+                "time_sec": 122.81
+            },
+            {
+                "rmse": 32.018574,
+                "time_sec": 109.41
+            },
+            {
+                "rmse": 17.226333,
+                "time_sec": 108.88
+            }
+        ],
+        "avg_rmse": 22.956844,
+        "avg_time_sec": 113.7
+    },
+    {
+        "model": "GRU_CLOSE_VOLUME_MA7_BOLLINGER_TANH_ELU_RELU",
+        "runs": [
+            {
+                "rmse": 3.529793,
+                "time_sec": 110.7
+            },
+            {
+                "rmse": 18.765682,
+                "time_sec": 110.87
+            },
+            {
+                "rmse": 4.791123,
+                "time_sec": 161.66
+            }
+        ],
+        "avg_rmse": 9.028866,
+        "avg_time_sec": 127.74
+    },
+    {
+        "model": "GRU_CLOSE_VOLUME_RSI14_MACD_BOLLINGER_TANH_SWISH",
+        "runs": [
+            {
+                "rmse": 25.234744,
+                "time_sec": 109.34
+            },
+            {
+                "rmse": 25.011791,
+                "time_sec": 111.14
+            },
+            {
+                "rmse": 27.692784,
+                "time_sec": 109.22
+            }
+        ],
+        "avg_rmse": 25.979773,
+        "avg_time_sec": 109.9
+    }
+]

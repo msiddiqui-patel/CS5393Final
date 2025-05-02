@@ -1,0 +1,37 @@
+[
+    {
+        "model": "LSTM",
+        "rmse": 14.619837,
+        "time_sec": 99.76
+    },
+    {
+        "model": "GRU",
+        "rmse": 14.403215,
+        "time_sec": 109.98
+    },
+    {
+        "model": "GRU_CLOSE_TANH_RELU_LEAKYRELU",
+        "rmse": 3.431135,
+        "time_sec": 109.5
+    },
+    {
+        "model": "GRU_CLOSE_VOLUME_TANH_LEAKYRELU_ELU",
+        "rmse": 18.993402,
+        "time_sec": 111.16
+    },
+    {
+        "model": "GRU_CLOSE_RSI14_MACD_TANH_SWISH",
+        "rmse": 17.486179,
+        "time_sec": 111.82
+    },
+    {
+        "model": "GRU_CLOSE_VOLUME_MA7_BOLLINGER_TANH_ELU_RELU",
+        "rmse": 9.021378,
+        "time_sec": 110.59
+    },
+    {
+        "model": "GRU_CLOSE_VOLUME_RSI14_MACD_BOLLINGER_TANH_SWISH",
+        "rmse": 14.575949,
+        "time_sec": 109.83
+    }
+]
